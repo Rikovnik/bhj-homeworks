@@ -4,7 +4,7 @@ menuItems.forEach((item)=> {
 	const dropDownMenu = itemParent.querySelector('.menu_sub');
 	item.onclick = ()=> {
 		if (dropDownMenu != null) {
-			dropDownMenu.classList.add('menu_active');
+			dropDownMenu.classList.toggle('menu_active');
 			return false;
 		}
 	}
