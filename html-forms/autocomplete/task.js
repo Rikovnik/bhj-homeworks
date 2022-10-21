@@ -76,12 +76,7 @@ class Autocomplete {
         result.push({text: item.label, value: item.value});
       }  
     });
-    return [
-      {
-        text: 'Чубакка',
-        value: '1'
-      }
-    ];
+    return selectValues;
   }
 }
 
